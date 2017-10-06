@@ -8,6 +8,6 @@ public class Challenge1Test {
 
     @Test
     public void shouldEncodeProvidedStringToBase64() throws Exception {
-        assertEquals(Challenge1.encodeBase64("4"), "S");
+        assertEquals("AQ", Challenge1.encodeBase64("01"));
     }
 }
